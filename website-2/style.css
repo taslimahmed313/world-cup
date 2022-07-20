@@ -1,0 +1,133 @@
+/*------------------------------ Google Fonts----------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+main {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+/*-------------------------- Front Page Styles------------------------------- */
+.container {
+  width: 90%;
+}
+.front-page {
+  display: flex;
+  background: #161616;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.same-item {
+  width: 100%;
+}
+.front-page .front-page-text {
+  color: white;
+  margin-left: 5%;
+}
+.front-page h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.front-image img {
+  margin-right: 5%;
+  margin-top: 20px;
+  height: 400px;
+}
+.front-page-text .live-button {
+  background: #dd0000;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 25px;
+  font-family: oswald;
+}
+/* ------------------------Upcoming Matches Styles ----------------------------*/
+.match-details {
+  display: flex;
+  margin-top: 100px;
+  grid-column-gap: 20px;
+}
+.match-schedule {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 210px;
+  background: rgb(26, 25, 25);
+  border-radius: 10px;
+}
+.match-schedule input[type="button"] {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  font-weight: 500;
+  font-family: poppins;
+  color: #161616;
+  padding: 10px 25px;
+  width: 160px;
+}
+.around-margin {
+  margin: 20px;
+}
+#exception-btn {
+  color: white;
+  background: orangered;
+}
+.more-flags {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 12px;
+  grid-row-gap: 40px;
+}
+.flag {
+  border: 1px solid rgb(235, 229, 229);
+}
+.flag .match {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.flag .match img {
+  width: 70px;
+}
+.flag .alignment {
+  margin: 0px 10px;
+}
+.match-info {
+  text-align: center;
+  font-family: poppins;
+}
+.match-info h3 {
+  font-size: 16px;
+}
+.match-info p {
+  font-size: 10px;
+}
+.match-info button {
+  font-family: oswald;
+}
+/* -----------------------------Footer Part Styles ---------------------------*/
+.footer {
+  width: 100%;
+  text-align: center;
+  background: rgb(18, 27, 24);
+  color: white;
+  margin-top: 100px;
+}
+.footer h2 {
+  margin-top: 60px;
+  font-size: 50px;
+  font-weight: 600;
+}
+hr {
+  width: 90%;
+  border: 1px solid #535353;
+}
+.footer a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 30px 20px 60px 10px;
+}
