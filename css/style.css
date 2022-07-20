@@ -181,6 +181,9 @@ hr {
   text-align: center;
   margin: -200px 5px 30px;
 }
+.social-icons .span {
+  display: inline;
+}
 /*---------------------------------- Media Query ----------------------------*/
 /*--------------------------------  Mobile Device ---------------------------*/
 @media screen and (max-width: 688px) {
@@ -196,7 +199,8 @@ hr {
     width: 90%;
   }
   .front-page {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
   .match-schedule {
@@ -213,7 +217,7 @@ hr {
     grid-column-gap: 20px;
   }
   .blog img {
-    width: 325px;
+    width: 340px;
     height: 190px;
   }
   .footer a {

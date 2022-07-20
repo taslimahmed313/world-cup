@@ -175,3 +175,54 @@ hr {
   text-align: center;
   margin: -200px 5px 30px;
 }
+.social-icons .span {
+  display: inline;
+}
+/*--------------------------------- Media Query -------------------------------*/
+/* --------------------------------Mobile Devices---------------------------- */
+@media screen and (max-width: 688px) {
+  body {
+    margin: 0;
+  }
+  main {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+  }
+  .container .flag {
+    width: 90%;
+  }
+  .front-page {
+    display: block;
+    text-align: center;
+  }
+  .match-schedule {
+    display: inline-block;
+    margin-top: -100px;
+    background-color: white;
+  }
+  .more-flags {
+    grid-template-columns: 1fr;
+  }
+  .match-details {
+    display: block;
+    margin-top: 100px;
+    grid-column-gap: 20px;
+  }
+  .flag {
+    display: grid;
+    grid-column-gap: 0px;
+  }
+  .flag .match {
+    text-align: start;
+  }
+  .flag .match img {
+    width: 100%;
+  }
+  .footer a {
+    display: block;
+  }
+}
