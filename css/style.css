@@ -78,6 +78,7 @@ main {
   color: white;
   padding: 10px 25px;
   font-family: oswald;
+  border: none;
   animation: colorful 5s ease-in 1s 5 normal backwards;
 }
 /* ----------------------Page Moveable Buttons Styles -----------------------*/
@@ -108,7 +109,7 @@ main {
   margin: 20px;
 }
 #hover-btn:hover {
-  color: red;
+  color: rgb(244, 68, 3);
 }
 #highlight-btn {
   color: white;
@@ -148,6 +149,16 @@ main {
 .icons .number {
   margin-left: 8px;
 }
+#btn-hide {
+  padding: 15px 40px;
+  background-color: orangered;
+  margin-top: 50px;
+  color: white;
+  font-size: 20px;
+  display: none;
+  border-radius: 10px;
+  border: none;
+}
 /* -----------------------------Footer Part Styles ---------------------------*/
 .footer {
   width: 100%;
@@ -184,6 +195,7 @@ hr {
 .social-icons .span {
   display: inline;
 }
+
 /*---------------------------------- Media Query ----------------------------*/
 /*--------------------------------  Mobile Device ---------------------------*/
 @media screen and (max-width: 688px) {
@@ -238,11 +250,13 @@ hr {
   .container .blog {
     width: 90%;
   }
-
-  .match-schedule input {
+  .match-schedule {
     display: inline-block;
     margin-top: -100px;
     background-color: white;
+  }
+  .match-schedule input[type="button"] {
+    display: inline;
   }
   .blogs {
     grid-template-columns: repeat(2, 1fr);
@@ -257,18 +271,13 @@ hr {
     grid-column-gap: 20px;
   }
   .blog img {
-    width: 340px;
-    height: 190px;
+    width: 100%;
   }
   #btn-hide {
-    visibility: visible;
+    display: block;
+    width: 200px;
   }
-}
-#btn-hide {
-  padding: 10px 40px;
-  background-color: orangered;
-  margin-top: 50px;
-  color: white;
-  font-size: 20px;
-  visibility: hidden;
+  #alignment {
+    margin: auto;
+  }
 }
