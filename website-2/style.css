@@ -7,7 +7,6 @@ body {
 }
 main {
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
 }
@@ -17,7 +16,7 @@ main {
 }
 .front-page {
   display: flex;
-  background: #161616;
+  background: #180704;
   border-radius: 30px;
   margin-top: 50px;
 }
@@ -37,13 +36,32 @@ main {
   margin-top: 20px;
   height: 400px;
 }
+@keyframes colorful {
+  0% {
+    background-color: rgb(241, 124, 21);
+  }
+  25% {
+    background-color: rgb(113, 227, 98);
+  }
+  50% {
+    background-color: rgb(51, 222, 222);
+  }
+  75% {
+    background-color: rgb(244, 40, 216);
+  }
+  100% {
+    background-color: rgb(76, 38, 231);
+  }
+}
 .front-page-text .live-button {
   background: #dd4a00;
   border-radius: 5px;
   color: white;
   padding: 10px 25px;
   font-family: oswald;
+  animation: colorful 5s ease-in 1s 5 reverse forwards;
 }
+
 /* ------------------------Upcoming Matches Styles ----------------------------*/
 .match-details {
   display: flex;
@@ -55,7 +73,7 @@ main {
   flex-direction: column;
   width: 200px;
   height: 210px;
-  background: rgb(26, 25, 25);
+  background: rgb(23, 18, 8);
   border-radius: 10px;
 }
 .match-schedule input[type="button"] {
@@ -110,22 +128,32 @@ main {
 .footer {
   width: 100%;
   text-align: center;
-  background: rgb(18, 27, 24);
+  background: rgba(8, 4, 4, 0.921);
   color: white;
   margin-top: 100px;
 }
 .footer h2 {
-  margin-top: 60px;
-  font-size: 50px;
+  margin-top: 50px;
+  font-size: 40px;
   font-weight: 600;
 }
 hr {
   width: 90%;
-  border: 1px solid #535353;
+  border: 1px solid #3e3a3a;
 }
 .footer a {
   display: inline-block;
   color: white;
   text-decoration: none;
-  margin: 30px 20px 60px 10px;
+  margin: 30px 20px 30px 10px;
+}
+.social-icons .pad {
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #3a3a3a;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin: -200px 5px 30px;
 }

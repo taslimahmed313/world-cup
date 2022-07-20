@@ -7,7 +7,6 @@ body {
 }
 main {
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
 }
@@ -17,7 +16,7 @@ main {
 }
 .front-page {
   display: flex;
-  background: #161616;
+  background: #150b08;
   border-radius: 30px;
   margin-top: 50px;
 }
@@ -74,7 +73,7 @@ main {
   flex-direction: column;
   width: 200px;
   height: 210px;
-  background: rgb(26, 25, 25);
+  background: rgb(23, 24, 11);
   border-radius: 10px;
 }
 .match-schedule input[type="submit"] {
@@ -135,24 +134,34 @@ main {
 .footer {
   width: 100%;
   text-align: center;
-  background: rgb(18, 27, 24);
+  background: rgba(8, 4, 4, 0.921);
   color: white;
   margin-top: 100px;
 }
 .footer h2 {
-  margin-top: 60px;
-  font-size: 50px;
+  margin-top: 50px;
+  font-size: 40px;
   font-weight: 600;
 }
 hr {
   width: 90%;
-  border: 1px solid #535353;
+  border: 1px solid #3e3a3a;
 }
 .footer a {
   display: inline-block;
   color: white;
   text-decoration: none;
-  margin: 30px 20px 60px 10px;
+  margin: 30px 20px 30px 10px;
+}
+.social-icons .pad {
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #3a3a3a;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin: -200px 5px 30px;
 }
 /*---------------------------------- Media Query ----------------------------*/
 /*--------------------------------  Mobile Device ---------------------------*/
