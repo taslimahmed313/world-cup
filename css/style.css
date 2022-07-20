@@ -58,7 +58,7 @@ main {
   background: rgb(26, 25, 25);
   border-radius: 10px;
 }
-.match-schedule input[type="button"] {
+.match-schedule input[type="submit"] {
   margin-bottom: 20px;
   border-radius: 10px;
   background: #ffffff;
