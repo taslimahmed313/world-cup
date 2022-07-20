@@ -267,11 +267,4 @@ hr {
   .flag .match img {
     width: 100%;
   }
-  #btn-hide {
-    display: block;
-    width: 200px;
-  }
-  #alignment {
-    margin: auto;
-  }
 }

@@ -229,8 +229,7 @@ hr {
     grid-column-gap: 20px;
   }
   .blog img {
-    width: 340px;
-    height: 190px;
+    width: 100%;
   }
   .footer a {
     display: block;
