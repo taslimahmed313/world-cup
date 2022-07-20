@@ -227,16 +227,48 @@ hr {
 
 /*--------------------------------- Tablet Devices------------------------ */
 @media only screen and (min-width: 689px) and (max-width: 991px) {
+  main {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+  }
   .container {
     width: 100%;
   }
-  .front-page {
-    width: 95%;
+  .container .blog {
+    width: 90%;
   }
+
   .match-schedule input {
-    display: inline;
+    display: inline-block;
+    margin-top: -100px;
+    background-color: white;
   }
-  .matches {
+  .blogs {
     grid-template-columns: repeat(2, 1fr);
   }
+  #display-none {
+    display: none;
+  }
+
+  .match-details {
+    display: block;
+    margin-top: 100px;
+    grid-column-gap: 20px;
+  }
+  .blog img {
+    width: 340px;
+    height: 190px;
+  }
+  #btn-hide {
+    visibility: visible;
+  }
+}
+#btn-hide {
+  padding: 10px 40px;
+  background-color: orangered;
+  margin-top: 50px;
+  color: white;
+  font-size: 20px;
+  visibility: hidden;
 }
