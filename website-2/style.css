@@ -258,12 +258,6 @@ hr {
   #display-none {
     display: none;
   }
-
-  .match-details {
-    display: block;
-    margin-top: 100px;
-    grid-column-gap: 20px;
-  }
   .flag .match img {
     width: 100%;
   }

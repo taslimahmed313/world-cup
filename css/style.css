@@ -16,7 +16,7 @@ main {
 }
 .front-page {
   display: flex;
-  background: #1d1919;
+  background: #231d1d;
   border-radius: 30px;
   margin-top: 50px;
 }
@@ -92,7 +92,7 @@ main {
   flex-direction: column;
   width: 200px;
   height: 210px;
-  background: rgb(23, 24, 11);
+  background: rgb(9, 22, 16);
   border-radius: 10px;
 }
 .match-schedule input[type="submit"] {
@@ -139,8 +139,8 @@ main {
 .match-info button {
   font-family: oswald;
   color: white;
-  background-color: rgb(42, 41, 43);
-  padding: 0px 10px;
+  background-color: rgb(42, 39, 45);
+  padding: 2px 10px;
   border-radius: 5px;
 }
 .icons .icon {
