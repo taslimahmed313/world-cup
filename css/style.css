@@ -16,7 +16,7 @@ main {
 }
 .front-page {
   display: flex;
-  background: #150b08;
+  background: #1d1919;
   border-radius: 30px;
   margin-top: 50px;
 }
@@ -39,19 +39,37 @@ main {
 
 @keyframes colorful {
   0% {
-    background-color: rgb(241, 124, 21);
+    background-color: rgb(25, 21, 17);
   }
-  25% {
-    background-color: rgb(113, 227, 98);
+  10% {
+    background-color: rgb(52, 42, 37);
+  }
+  20% {
+    background-color: rgb(119, 90, 77);
+  }
+  30% {
+    background-color: rgb(185, 93, 66);
+  }
+  40% {
+    background-color: rgb(200, 92, 46);
   }
   50% {
-    background-color: rgb(51, 222, 222);
+    background-color: rgb(231, 74, 1);
   }
-  75% {
-    background-color: rgb(244, 40, 216);
+  60% {
+    background-color: rgb(200, 92, 46);
+  }
+  70% {
+    background-color: rgb(185, 93, 66);
+  }
+  80% {
+    background-color: rgb(119, 90, 77);
+  }
+  90% {
+    background-color: rgb(52, 42, 37);
   }
   100% {
-    background-color: rgb(76, 38, 231);
+    background-color: rgb(25, 21, 17);
   }
 }
 .front-page-text .live-button {
@@ -60,7 +78,7 @@ main {
   color: white;
   padding: 10px 25px;
   font-family: oswald;
-  animation: colorful 5s ease-in 1s 5 reverse forwards;
+  animation: colorful 5s ease-in 1s 5 normal backwards;
 }
 /* ----------------------Page Moveable Buttons Styles -----------------------*/
 .match-details {
@@ -174,7 +192,7 @@ hr {
   .container {
     width: 100%;
   }
-  .container .match {
+  .container .blog {
     width: 90%;
   }
   .front-page {
@@ -186,7 +204,7 @@ hr {
     margin-top: -100px;
     background-color: white;
   }
-  .matches {
+  .blogs {
     grid-template-columns: 1fr;
   }
   .match-details {
@@ -194,7 +212,7 @@ hr {
     margin-top: 100px;
     grid-column-gap: 20px;
   }
-  .match img {
+  .blog img {
     width: 325px;
     height: 190px;
   }
